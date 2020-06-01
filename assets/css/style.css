@@ -26,7 +26,7 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: #af4040;
   }
   
   h1 {
@@ -58,13 +58,13 @@ body {
     color: #fff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background: #af4040;
     margin-top: -1px;
   }
 
   .navbar-default .navbar-brand {
     color: #fff;
-    background: #4aaaa5;
+    background: #af4040;
   }
   
   #navbar-links a {
@@ -83,13 +83,13 @@ body {
 
 /* Footer Start */
 .footer-section {
-    padding-top: 20px;
+    padding-top: 25px;
     font-size: 12px;
     color: #fff;
     color: #ccc;
     text-align: center;
     background: #666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 18px solid #af4040;
   }
  /*Footer End  */
 
@@ -98,7 +98,7 @@ body {
 .sidebar {
     padding: 0px 30px 30px 30px;
     background: #fff;
-    border: 1px solid #ddd;
+    border: 5px solid #ddd;
     margin-bottom: 30px;
   }
   
@@ -155,7 +155,7 @@ h3,
   width:100%;
   bottom: 10px;
   position: absolute;
-  background: #4aaaa5;
+  background: #af4040;
 }
 
 .thumbnail {
@@ -205,7 +205,7 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #af4040;
   border: 0 none;
 }
 
@@ -214,9 +214,10 @@ input[type=submit] {
     padding: 20px;
     border-color: #dddddd;
   }
+  
 
   #contact_head {
-      color: #4aaaa5;
+      color:#af4040;
       font-size: 18px;
       font-weight: bold;
       border-bottom: solid 3px #dddddd;
@@ -227,7 +228,7 @@ input[type=submit] {
   }
 
 #submit-button {
-    background-color: #4aaaa5;
+    background-color: #af4040;
     font-size: 16px;
     color: #ffffff;
     padding-top: 10px;
