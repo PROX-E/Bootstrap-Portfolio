@@ -62,53 +62,23 @@ body {
     margin-top: -1px;
   }
 
+  .navbar-default .navbar-brand {
+    color: #fff;
+    background: #4aaaa5;
+  }
+  
+  #navbar-links a {
+    line-height: 0px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+    margin-top: 30px;
+  }
+  
+  #no-border-about {
+    border-left: 0 none !important;
+  }
 
-.myname {
-    float: left;
-    display: table;
-    height: 100%;
-}
-
-.myname h1{
-    height: 100%;
-    color: white;
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-weight: 1000;
-    background-color: #4aaaa5;
-    padding: 20px
-}
-
-.navigation {
-    float: right;
-    height: 100%
-}
-
-.navigation a{
-    float: left;
-    display: table;
-    height: 100%;
-    padding: 0px 20px
-}
-
-.navigation a li:hover{
-    color: #4aaaa5;
-}
-
-.navigation a li{
-    display: table-cell;
-    vertical-align: middle;
-    font-weight: 600;
-    color: #777777;
-    height: 100%;
-}
-
-.navigation a:last-child{
-    padding-right: 20px;
-}
 /* Header styles end */
 
 /* index styles start */
