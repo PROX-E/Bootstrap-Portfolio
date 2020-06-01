@@ -197,7 +197,29 @@ textarea {
   border: 1px solid #ddd;
 }
 
+textarea {
+  height: 200px;
+}
 
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+#submit-button {
+  background-color: #4aaaa5;
+  font-size: 16px;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 18px;
+  padding-left: 18px;
+  border-radius: 0px;
+}
 /* contact styles end */
 
 /* for mobile devices */
