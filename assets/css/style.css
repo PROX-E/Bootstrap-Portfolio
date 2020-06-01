@@ -81,6 +81,19 @@ body {
 
 /* Header styles end */
 
+/* Footer Start */
+.footer-section {
+    padding-top: 20px;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+  }
+
+ /*Footer End  */
+  
 /* index styles start */
 div.container {
     width: 75%;
