@@ -7,19 +7,18 @@ body {
     background: url("../images/5-dots.png");
   }
 
-html {
-    height: 100%;
-}
-
-body {
-    background-image: url(assets\images\5-dots.png);
-
-    min-height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-
-}
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* general */
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 20px;
+  }
 
 /* Header styles start */
 .inner_header{
