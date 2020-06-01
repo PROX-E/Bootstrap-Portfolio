@@ -42,20 +42,25 @@ body {
   }
 
 /* Header styles start */
-.inner_header{
-    display: block;
-    height: 100%;
-    margin: 0 auto;
-    width: 1020px;
-}
 
-.header{
-    height: 100px;
-    display: block;
-    width: 100vw;
-    border-bottom-style: solid; border-color: #cccccc; border-bottom-width: 2px; 
-    background-color: #ffffff;
-}
+#masthead {
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .navbar-brand {
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    margin-top: -1px;
+  }
 
 
 .myname {
