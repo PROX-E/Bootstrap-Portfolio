@@ -122,40 +122,32 @@ h3,
 /* Sidebar end */
 
 /* index styles start */
-div.container {
-    width: 75%;
-    background-color: #ffffff;
-    border: solid 2px #dddddd;
-    margin: 50px auto;
-    padding: 20px;
-}
-
-.main_text {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    padding: 15px;
-    font-size: 19px;
-    line-height: 1.5;
-}
-
-#about_me {
-    font-weight: bold;
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-    border-bottom: solid #dddddd 3px;
-    padding: 22px;
-    padding-left: 0px;
-}
-
-
-#photo {
-    float: left;
-    width: 250px;
-    padding: 20px;
-
-}
-
+.main-section {
+    padding: 0px 30px 30px 30px;
+    margin: 0px 0px 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .main-section p {
+    margin: 0px 15px 15px 10px;
+  }
+  
+  .main-section p:first-child {
+    margin-top: -10px !important;
+  }
+  
+  .main-section p:last-child {
+    margin-bottom: 0px;
+  }
+  
+  #profile-photo {
+    max-width: 25%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: block;
+  }
 /* index styles end */
 
 /* portfolio styles begin */
