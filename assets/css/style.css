@@ -153,7 +153,7 @@ h3,
 /* portfolio styles begin */
 .caption {
   width:100%;
-  bottom: 10px;
+  bottom: 5px;
   position: absolute;
   background: #af4040;
 }
@@ -164,6 +164,7 @@ h3,
   margin: 15px;
   padding: 0;
   max-width: 220px;  /* computed max-width of img-responsive */
+  height: 150px;
 }
 
 .caption h3 {
