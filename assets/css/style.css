@@ -221,12 +221,3 @@ input[type=submit] {
   border-radius: 0px;
 }
 /* contact styles end */
-
-/* for mobile devices */
-/* @media screen and (max-width: 414px){
-    .main_text{
-
-        width: 40%;
-        height: 50%;
-    }
-} */
