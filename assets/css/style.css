@@ -152,30 +152,29 @@ h3,
 
 /* portfolio styles begin */
 .caption {
-    width:100%;
-    bottom: 10px;
-    position: absolute;
-    background: #4aaaa5;
-  }
-  
-  .thumbnail {
-    border: 0 none;
-    box-shadow: none;
-    margin: 15px;
-    padding: 0;
-    max-width: 220px;  /* computed max-width of img-responsive */
-  }
-  
-  .caption h3 {
-    color: #fff;
-    border-bottom: none;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 0;
-  }
+  width:100%;
+  bottom: 10px;
+  position: absolute;
+  background: #4aaaa5;
+}
+
+.thumbnail {
+  border: 0 none;
+  box-shadow: none;
+  margin: 15px;
+  padding: 0;
+  max-width: 220px;  /* computed max-width of img-responsive */
+}
+
+.caption h3 {
+  color: #fff;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
 
 /* portfolio styles end */
-
 /* contact styles start */
 
 
@@ -210,14 +209,32 @@ input[type=submit] {
   border: 0 none;
 }
 
+  .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-color: #dddddd;
+  }
+
+  #contact_head {
+      color: #4aaaa5;
+      font-size: 18px;
+      font-weight: bold;
+      border-bottom: solid 3px #dddddd;
+      padding: 20px;
+      padding-left: 0px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+
 #submit-button {
-  background-color: #4aaaa5;
-  font-size: 16px;
-  color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 18px;
-  padding-left: 18px;
-  border-radius: 0px;
-}
+    background-color: #4aaaa5;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 0px;
+  }
 /* contact styles end */
+
