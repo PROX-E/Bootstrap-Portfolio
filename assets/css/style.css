@@ -111,6 +111,14 @@ h3,
   border-bottom: 2px solid #eee;
 }
 
+.social {
+    max-height: 60px;
+    margin-bottom: 5px;
+  }
+  
+  .social.img-responsive {
+    display: inline-block;
+  }
 /* Sidebar end */
 
 /* index styles start */
