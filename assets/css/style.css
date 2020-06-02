@@ -19,14 +19,18 @@ body {
   p {
     margin-bottom: 20px;
   }
-
+  h4{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: white
+  }
 
   h1,
   h2,
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #af4040;
+    color: #2d2e58;
   }
   
   h1 {
@@ -44,8 +48,6 @@ body {
 /* Header styles start */
 
 #masthead {
-    color: #fff;
-    background: #fff;
     border-bottom: 2px solid #ccc;
   }
   
@@ -55,16 +57,15 @@ body {
     font-size: 30px;
     font-weight: 700;
     line-height: 60px;
-    color: #fff;
     text-align: center;
     text-decoration: none;
-    background: #af4040;
+    /* background: #af4040; */
     margin-top: -1px;
   }
 
   .navbar-default .navbar-brand {
     color: #fff;
-    background: #af4040;
+    /* background: #af4040; */
   }
   
   #navbar-links a {
@@ -79,6 +80,11 @@ body {
     border-left: 0 none !important;
   }
 
+  .header{
+    background-image: url("../images/nav-background.jpg");
+    background-size: cover;
+  }
+
 /* Header styles end */
 
 /* Footer Start */
@@ -89,7 +95,7 @@ body {
     color: #ccc;
     text-align: center;
     background: #666;
-    border-top: 18px solid #af4040;
+    border-top: 18px solid #2d2e58;
   }
  /*Footer End  */
 
@@ -114,6 +120,10 @@ h3,
 .social {
     max-height: 60px;
     margin-bottom: 5px;
+    font-size: small;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color:#2d2e58;
   }
   
   .social.img-responsive {
@@ -155,7 +165,7 @@ h3,
   width:100%;
   bottom: 5px;
   position: absolute;
-  background: #af4040;
+  background: #2d2e58;
 }
 
 .thumbnail {
@@ -187,7 +197,9 @@ textarea {
   width: 100%;
   font-weight: normal;
 }
-
+label{
+  color: white;
+}
 input[type=text],
 input[type=email],
 textarea {
@@ -206,19 +218,22 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #af4040;
+  background: #2d2e58;
   border: 0 none;
 }
 
   .container {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 20px;
     border-color: #dddddd;
   }
   
+  #contact_label{
+    font-size: 25px;
+  }
 
   #contact_head {
-      color:#af4040;
+      color:#2d2e58;
       font-size: 18px;
       font-weight: bold;
       border-bottom: solid 3px #dddddd;
@@ -229,7 +244,7 @@ input[type=submit] {
   }
 
 #submit-button {
-    background-color: #af4040;
+    background-color: #2d2e58;
     font-size: 16px;
     color: #ffffff;
     padding-top: 10px;
