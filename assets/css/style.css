@@ -117,7 +117,7 @@ body {
 /* Sidebar */
 
 .sidebar {
-    padding: 0px 30px 30px 30px;
+    padding: 0px 30px 10px 30px;
     background: #fff;
     border: 5px solid #2d2e58;
     box-shadow:0 0 0 4px inset grey,
@@ -149,14 +149,12 @@ h3,
 /* Sidebar end */
 
 /* index styles start */
-.main-section {
-    padding: 0px 30px 30px 30px;
-    margin: 0px 0px 30px;
-    border: 1px solid #ddd;
-  }
   #bio-main{
     background: url("../images/bio-background.jpg");
     background-size: cover;
+    padding: 0px 30px 30px 30px;
+    margin: 0px 0px 30px;
+    border: 1px solid #ddd;
     box-shadow:0 0 0 4px inset grey,
     0 0 0 5px inset #2d2e58 ;
   }
@@ -186,7 +184,9 @@ h3,
 
 #projects-main{ 
   background: url("../images/portfolio-background.jpg");
-  background-size: cover;
+  padding: 0px 60px 30px 30px;
+    margin: 0px 0px 30px;
+    border: 1px solid #ddd;
   box-shadow:0 0 0 4px inset grey,
     0 0 0 5px inset #2d2e58 ;
 } 
