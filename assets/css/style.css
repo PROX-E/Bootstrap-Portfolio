@@ -71,15 +71,18 @@ body {
     line-height: 60px;
     text-align: center;
     text-decoration: none;
-    /* background: #af4040; */
     margin-top: -1px;
   }
 
   .navbar-default .navbar-brand {
     color: #fff;
-    /* background: #af4040; */
   }
-  
+  .navbar-link{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+
   #navbar-links a {
     line-height: 0px;
     color: #999;
@@ -256,7 +259,7 @@ input[type=submit] {
   }
   
   #contact_label{
-    font-size: 30px;
+    font-size: 35px;
   }
 
   #contact_head {
