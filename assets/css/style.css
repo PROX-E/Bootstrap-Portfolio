@@ -44,6 +44,9 @@ body {
   h3 {
     font-size: 22px;
   }
+  p{
+    color: rgb(71, 71, 71);
+  }
 
 /* Header styles start */
 
@@ -142,6 +145,8 @@ h3,
   #bio-main{
     background: url("../images/bio-background.jpg");
     background-size: cover;
+    box-shadow:0 0 0 4px inset grey,
+    0 0 0 5px inset #2d2e58 ;
   }
   .main-section p {
     margin: 0px 15px 15px 10px;
@@ -157,10 +162,11 @@ h3,
   
   #profile-photo {
     max-width: 25%;
-    margin-bottom: 15px;
+    margin-bottom: 0;
     margin-right: 15px;
     margin-left: 15px;
     display: block;
+    padding-top: 50px;
   }
 /* index styles end */
 
