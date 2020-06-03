@@ -175,6 +175,8 @@ h3,
 #projects-main{ 
   background: url("../images/portfolio-background.jpg");
   background-size: cover;
+  box-shadow:0 0 0 4px inset grey,
+    0 0 0 5px inset #2d2e58 ;
 } 
 
 .caption {
